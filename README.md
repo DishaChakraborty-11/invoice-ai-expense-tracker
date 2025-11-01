@@ -89,13 +89,22 @@ invoice-ai-expense-tracker/
 
 🧠 Example Output
 {
+
   "status": "success",
-  "extracted_data": {
+  
+  "extracted_data":
+  {
+  
     "date": "05/09/2025",
+    
     "vendor": "Amazon",
+    
     "amount": "₹1,250.00",
+    
     "category": "Office Supplies"
+    
   }
+  
 }
 
 🪄 Acknowledgements
