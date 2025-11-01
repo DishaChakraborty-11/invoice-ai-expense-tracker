@@ -88,12 +88,13 @@ invoice-ai-expense-tracker/
 6️⃣ React dashboard updates with charts and totals
 
 🧠 Example Output
-{
 
-  "status": "success",
+    {
+
+        "status": "success",
   
-  "extracted_data":
-  {
+        "extracted_data":
+     {
   
     "date": "05/09/2025",
     
@@ -103,9 +104,9 @@ invoice-ai-expense-tracker/
     
     "category": "Office Supplies"
     
-  }
+     }
   
-}
+    }
 
 🪄 Acknowledgements
 
