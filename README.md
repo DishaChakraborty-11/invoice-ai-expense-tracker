@@ -76,10 +76,15 @@ invoice-ai-expense-tracker/
 🧾 How It Works
 
 1️⃣ User uploads an invoice image/PDF
+
 2️⃣ Flask backend extracts text using Tesseract OCR
+
 3️⃣ NLP model detects vendor, date, and amount
+
 4️⃣ Categorizer classifies the expense type
+
 5️⃣ Data stored in SQLite database
+
 6️⃣ React dashboard updates with charts and totals
 
 🧠 Example Output
