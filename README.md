@@ -3,6 +3,13 @@
 A full-stack AI-powered web application that extracts key information from invoices using **OCR (Optical Character Recognition)** and **NLP**, categorizes expenses automatically, and visualizes them in an interactive dashboard.
 
 ---
+📂 Data
+
+- Tested using sample and personal invoice PDFs
+- Invoices contained varied layouts, vendors, and formats
+- Dataset not publicly shared due to privacy concerns
+
+---
 
 ## 🚀 Features
 ✅ Upload invoices (image or PDF)  
@@ -108,6 +115,15 @@ invoice-ai-expense-tracker/
   
     }
 
+---
+
+Limitations
+
+- Tested on a limited number of invoices
+- Performance depends on OCR quality
+- Not optimized for large-scale enterprise use
+
+---
 🪄 Acknowledgements
 
 Tesseract OCR
