@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: invoice-ai-expense-tracker
-    runtime: python
-    buildCommand: |
-      apt-get update
-      apt-get install -y tesseract-ocr libtesseract-dev libleptonica-dev
-      pip install -r requirements.txt
-    startCommand: gunicorn app:app
