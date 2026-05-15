@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  padding: 40px;
+  text-align: center;
+}
+
+input {
+  margin: 20px 0;
+}
+
+.result-box {
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+pre {
+  text-align: left;
+  background: #f0f0f0;
+  padding: 10px;
+  overflow-x: auto;
+}
