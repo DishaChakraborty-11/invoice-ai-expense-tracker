@@ -4,6 +4,10 @@ from ocr_utils import extract_text_from_image, parse_invoice_fields
 
 app = Flask(__name__)
 
+@app.route("/")
+def home():
+    return "Invoice AI Backend is running!"
+
 @app.route("/upload", methods=["POST"])
 def upload_invoice():
     file = request.files["file"]
