@@ -14,7 +14,8 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("https://invoice-ai-backend.onrender.com/upload", {
+      // NOTE: If your Render URL is actually "invoice-ai-backend", change the text below to match it!
+      const res = await fetch("https://invoice-ai-expense-tracker.onrender.com/upload", {
         method: "POST",
         body: formData,
       });
