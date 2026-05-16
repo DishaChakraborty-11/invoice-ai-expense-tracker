@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/invoice-ai-expense-tracker/static/css/main.cca7923d.css",
+    "main.js": "/invoice-ai-expense-tracker/static/js/main.724675f6.js",
+    "index.html": "/invoice-ai-expense-tracker/index.html",
+    "main.cca7923d.css.map": "/invoice-ai-expense-tracker/static/css/main.cca7923d.css.map",
+    "main.724675f6.js.map": "/invoice-ai-expense-tracker/static/js/main.724675f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cca7923d.css",
+    "static/js/main.724675f6.js"
+  ]
+}
