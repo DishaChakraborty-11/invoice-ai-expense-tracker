@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 # Added the dot (.) so Vercel finds the file inside the api/ directory
-from .ocr_utils import extract_text_from_image, parse_invoice_fields
+from ocr_utils import extract_text_from_image, parse_invoice_fields
 
 app = Flask(__name__)
 CORS(app) # Allows your v0 frontend to connect safely
