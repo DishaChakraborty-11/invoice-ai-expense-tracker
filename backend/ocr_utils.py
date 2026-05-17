@@ -14,7 +14,7 @@ def extract_text_from_image(image_path):
     
     with open(image_path, 'rb') as f:
         payload = {
-            'apikey': K85418050388957,
+            'apikey': 'K85418050388957',
             'language': 'eng',
             'isOverlayRequired': False,
             'FileType': 'PNG'
